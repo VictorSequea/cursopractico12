@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Manipulacion  del DOM basica </title>
+</head>
+<body>
+    <h1>
+        Manipulacion  del DOM basica 
+    </h1>
+    <input id="calculo1" placeholder="escribe algo aqui">
+    <input id="calculo2" placeholder="escribe algo aqui">
+    <button id="btncalcular" onclick="btnOnClick()" >calcular</button>
+    <p id="resultado"></p>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+<!--
+EJEMPLO  PERO TIENE MUCHO CODIGO
+
+*onchange
+*onclick
+
+  <input onchange="console.log('holaaaaaaa')" id="calculo2" placeholder="escribe algo aqui">
+    <button id="btncalcular" onclick="console.log( 'cambios')" >calcular</button>
+
+-->
+<!--
+Ejemplo:  Con una funcion, para hacer menos codigo
+
+button id="btncalcular" onclick="btnOnClick()" >calcular</button>
+
+function btnOnClick() {
+    console.log('Escuchando el click')
+}
+
+-->
